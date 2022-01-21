@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header li .active {
+  color: #0282f9;
+  border-bottom: #0282f9 5px solid;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+
+.contain-jumbotron main {
+  padding: 0;
+  margin: 12px 0 0 0;
+  box-sizing: border-box;
+  background-image: url("/assets/img/jumbotron.jpg");
+  display: flex;
+  align-items: center;
+  height: 435px;
+  position: relative;
+}
+
+.contain-jumbotron main .contain {
+  position: absolute;
+  background-color: #0282f9;
+  padding: 5px 10px;
+  color: white;
+  top: 420px;
+  left: 15%;
+}
+
+.comics {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.comics #comicslist {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comics #load {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  background: #0282f9;
+  border: solid 1px #0282f9;
+  padding: 5px 25px;
+}
+
+.comics .comic {
+  width: 16.6666666667%;
+  margin-bottom: 20px;
+}
+
+.comics .comic h4 {
+  color: white;
+  width: 150px;
+  margin: 10px 0;
+}
+
+.comics .comic .contain-img {
+  width: 150px;
+  height: 150px;
+}
+
+.comics .comic .contain-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 10px;
+     object-position: 0 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-by-icon footer {
+  background-color: #0282f9;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-by-icon footer nav {
+  width: 70%;
+  margin: auto;
+}
+
+.nav-by-icon footer nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-by-icon footer nav ul a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-by-icon footer nav ul a .icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.nav-by-icon footer nav ul a img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-links footer {
+  background-image: url("/assets/img/footer-bg.jpg");
+  background-size: cover;
+  align-items: center;
+}
+
+.footer-links footer #contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.footer-links footer #contain nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links footer #contain #links {
+  width: 50%;
+}
+
+.footer-links footer #contain #logo {
+  margin-right: 100px;
+  width: 50%;
+  height: 350px;
+}
+
+.footer-links footer #contain #logo img {
+  -o-object-fit: none;
+     object-fit: none;
+  width: 150%;
+  height: 100%;
+}
+
+.footer-links footer #contain ul {
+  list-style-type: none;
+  margin: 30px 30px 0;
+}
+
+.footer-links footer #contain ul h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-links footer #contain ul a {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer-follow {
+  background-color: #303030;
+  padding: 5px;
+}
+
+.footer-follow #container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-follow #container button {
+  background-color: #303030;
+  color: white;
+  padding: 10px;
+  border: solid 2px #0282f9;
+}
+
+.footer-follow #container ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer-follow #container ul h3 {
+  color: #0282f9;
+}
+
+.footer-follow #container ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.prova {
+  color: green;
+}
+

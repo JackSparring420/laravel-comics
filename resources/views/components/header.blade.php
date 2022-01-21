@@ -12,7 +12,6 @@
             <li> <a href="">FANS</a> </li>
             <li> <a href="">NEWS</a> </li>
             <li> <a href="">SHOP</a> </li>
-
         </ul>
     </nav>
 </header>

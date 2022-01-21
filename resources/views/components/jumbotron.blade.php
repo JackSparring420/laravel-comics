@@ -1,7 +1,6 @@
 <div class="contain-jumbotron">
     <main>
-        <div class="contain">
-            <strong>CURRENT SERIES</strong> 
-        </div>
+        @yield('jumbotron')
     </main>
+    @yield('jumbotron-b')
 </div>

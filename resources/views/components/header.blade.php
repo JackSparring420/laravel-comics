@@ -1,5 +1,5 @@
 <header>
-    <img src="../assets/img/dc-logo.png" alt="">
+    <img src="../storage/assets/img/dc-logo.png" alt="">
     <nav>
         <ul>
             <li> <a href="">CHARACTER</a> </li>

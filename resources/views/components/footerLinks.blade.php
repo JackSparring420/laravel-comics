@@ -94,7 +94,7 @@
             </ul>
         </nav>
         <div id="logo">
-            <img src="../assets/img/dc-logo-bg.png" alt="">
+            <img src="../storage/assets/img/dc-logo-bg.png" alt="">
         </div>
         </div>
     </footer>

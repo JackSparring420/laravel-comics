@@ -32,7 +32,7 @@ header {
         padding: 0;
         margin: 12px 0 0 0;
         box-sizing: border-box;
-        background-image: url("/assets/img/jumbotron.jpg");
+        background-image: url("/storage/assets/img/jumbotron.jpg");
         display: flex;
         align-items: center;
         height: 435px;
@@ -155,7 +155,7 @@ header {
 
 .footer-links {
     footer {
-        background-image: url("/assets/img/footer-bg.jpg");
+        background-image: url("/storage/assets/img/footer-bg.jpg");
         background-size: cover;
         align-items: center;
 
@@ -165,7 +165,7 @@ header {
                 align-items: center;
                 width: 70%;
                 margin: auto;
-                justify-content: space-between;
+                justify-content: space-between; 
 
                 nav {
                     display: flex;

@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+    
     @include('components.header')
 
     @include('components.jumbotron')
